@@ -1,0 +1,14 @@
+{
+  "name": "terim-line",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Синтетическая keypad-сессия по опубликованному RU/KK меню: порядок событий, тайм-аут и история.",
+  "engines": {
+    "node": ">=24.15 <25"
+  },
+  "scripts": {
+    "start": "node start.js",
+    "test": "node --test --test-reporter=tap tests/*.test.js"
+  }
+}

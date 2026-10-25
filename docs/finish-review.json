@@ -1,0 +1,63 @@
+{
+  "disposition": "ship",
+  "persistence": {
+    "status": "pass",
+    "scope": "Verdict pass for F1 only, following the initial independent finish review. This ship covers the scored fixes, not the whole surface.",
+    "initial_review": "work/program/terim-review-initial.json",
+    "initial_review_status": "Read and retained as the full review record; no second full matrix, new-world review or detector pass was run.",
+    "capture_validity": [
+      {
+        "file": ".impeccable/review/active-1440.png",
+        "dimensions": "1440x1770",
+        "status": "valid",
+        "observed": "From document top: fresh KK v5 active session, no invalid attempts, five-second server deadline, authored prompt/choices, input, keypad, explicit close controls and one start event."
+      },
+      {
+        "file": ".impeccable/review/active-390.png",
+        "dimensions": "390x2051",
+        "status": "valid",
+        "observed": "Same fresh KK v5 active state, navigation and content wrapping within the narrow document, complete controls, event and footer."
+      },
+      {
+        "file": ".impeccable/review/terminal-1440.png",
+        "dimensions": "1440x2159",
+        "status": "valid",
+        "observed": "From document top: historical KK v3 HUMAN model outcome, three chronological events and expanded exact-menu snapshot."
+      },
+      {
+        "file": ".impeccable/review/terminal-1280.png",
+        "dimensions": "1280x2159",
+        "status": "valid",
+        "observed": "Same historical KK v3 terminal state and expanded exact-menu snapshot at the intermediate width."
+      },
+      {
+        "file": ".impeccable/review/terminal-390.png",
+        "dimensions": "390x2624",
+        "status": "valid",
+        "observed": "Same historical KK v3 terminal state with timestamps, event keys, multilingual snapshot and digest wrapping inside the narrow document."
+      }
+    ],
+    "evidence_limits": "All five replaced captures were opened; dimensions were read with sips. The parent reports DOM scrollWidth equal to each viewport width and choiceLanguages rows ru / author kk for both choices; those DOM checks were not independently rerun by this reviewer. The active captures intentionally show fresh v5 rather than the initial v3 invalid-attempt state. Later cancellation is parent-reported and is not established by these active captures. No browser, full mobile, touch, screen-reader or security audit is claimed."
+  },
+  "fidelity": {
+    "verdict": [
+      {
+        "id": "F1",
+        "status": "resolved",
+        "check": "Authored KK choice label within Russian interface",
+        "source_evidence": "public/app.js:35 now creates li with E('li', c.digit + ' — '), appends authored('span', selected label, row.language), then appends a plain text node containing ' · ' + labels[c.kind]. The li/digit/Russian suffix inherit the Russian interface language, while only the authored label receives kk in a KK session.",
+        "capture_evidence": "The current active-1440/390 and terminal-1440/1280/390 captures preserve choice wording, order, wrapping and surrounding hierarchy. The semantic split does not visibly replace the authored label or model-outcome text.",
+        "verification_boundary": "Resolution is established by the current source and valid recaptures, supplemented by the parent-reported DOM language check; no screen-reader behavior was tested."
+      }
+    ],
+    "regressions_from_fix": [],
+    "remaining": "clear",
+    "ship_scope": "This ship covers the scored fixes, not the whole surface."
+  },
+  "ceiling": {
+    "status": "initial_assessment_retained",
+    "assessment": "No new ceiling assessment was opened during this F1-only verdict. The initial review remains the record for the inherited Operate world, visual fidelity, task operation and evidence hierarchy."
+  },
+  "material_fixes": [],
+  "keep": "Preserve the inherited cabinet, authored RU/KK text, explicit owner action, fixed server deadline, numbered immutable event chronology, exact historical menu disclosure and clear model-only outcome boundary."
+}

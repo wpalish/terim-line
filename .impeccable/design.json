@@ -1,0 +1,419 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-25T14:10:35.222558Z",
+  "title": "Design System: TerimLine",
+  "extensions": {
+    "colorMeta": {
+      "primary": {
+        "displayName": "Working Green",
+        "role": "primary",
+        "tonalRamp": [
+          "oklch(15% 0.0820 173.03)",
+          "oklch(25% 0.0820 173.03)",
+          "oklch(35% 0.0820 173.03)",
+          "oklch(45% 0.0820 173.03)",
+          "oklch(60% 0.0820 173.03)",
+          "oklch(75% 0.0820 173.03)",
+          "oklch(85% 0.0820 173.03)",
+          "oklch(95% 0.0820 173.03)"
+        ]
+      },
+      "primary-hover": {
+        "displayName": "Deep Working Green",
+        "role": "primary",
+        "tonalRamp": [
+          "oklch(15% 0.0718 173.05)",
+          "oklch(25% 0.0718 173.05)",
+          "oklch(35% 0.0718 173.05)",
+          "oklch(45% 0.0718 173.05)",
+          "oklch(60% 0.0718 173.05)",
+          "oklch(75% 0.0718 173.05)",
+          "oklch(85% 0.0718 173.05)",
+          "oklch(95% 0.0718 173.05)"
+        ]
+      },
+      "navy": {
+        "displayName": "Cabinet Navy",
+        "role": "secondary",
+        "tonalRamp": [
+          "oklch(15% 0.0733 248.44)",
+          "oklch(25% 0.0733 248.44)",
+          "oklch(35% 0.0733 248.44)",
+          "oklch(45% 0.0733 248.44)",
+          "oklch(60% 0.0733 248.44)",
+          "oklch(75% 0.0733 248.44)",
+          "oklch(85% 0.0733 248.44)",
+          "oklch(95% 0.0733 248.44)"
+        ]
+      },
+      "ink": {
+        "displayName": "Cabinet Ink",
+        "role": "neutral",
+        "tonalRamp": [
+          "oklch(15% 0.0513 249.96)",
+          "oklch(25% 0.0513 249.96)",
+          "oklch(35% 0.0513 249.96)",
+          "oklch(45% 0.0513 249.96)",
+          "oklch(60% 0.0513 249.96)",
+          "oklch(75% 0.0513 249.96)",
+          "oklch(85% 0.0513 249.96)",
+          "oklch(95% 0.0513 249.96)"
+        ]
+      },
+      "page": {
+        "displayName": "Cool Workspace",
+        "role": "neutral",
+        "tonalRamp": [
+          "oklch(15% 0.0093 242.84)",
+          "oklch(25% 0.0093 242.84)",
+          "oklch(35% 0.0093 242.84)",
+          "oklch(45% 0.0093 242.84)",
+          "oklch(60% 0.0093 242.84)",
+          "oklch(75% 0.0093 242.84)",
+          "oklch(85% 0.0093 242.84)",
+          "oklch(95% 0.0093 242.84)"
+        ]
+      },
+      "surface": {
+        "displayName": "White Surface",
+        "role": "neutral",
+        "tonalRamp": [
+          "oklch(15% 0.0000 0.00)",
+          "oklch(25% 0.0000 0.00)",
+          "oklch(35% 0.0000 0.00)",
+          "oklch(45% 0.0000 0.00)",
+          "oklch(60% 0.0000 0.00)",
+          "oklch(75% 0.0000 0.00)",
+          "oklch(85% 0.0000 0.00)",
+          "oklch(95% 0.0000 0.00)"
+        ]
+      },
+      "line": {
+        "displayName": "Divider Blue",
+        "role": "neutral",
+        "tonalRamp": [
+          "oklch(15% 0.0278 241.23)",
+          "oklch(25% 0.0278 241.23)",
+          "oklch(35% 0.0278 241.23)",
+          "oklch(45% 0.0278 241.23)",
+          "oklch(60% 0.0278 241.23)",
+          "oklch(75% 0.0278 241.23)",
+          "oklch(85% 0.0278 241.23)",
+          "oklch(95% 0.0278 241.23)"
+        ]
+      },
+      "navigation-surface": {
+        "displayName": "Navigation Mist",
+        "role": "neutral",
+        "tonalRamp": [
+          "oklch(15% 0.0195 240.74)",
+          "oklch(25% 0.0195 240.74)",
+          "oklch(35% 0.0195 240.74)",
+          "oklch(45% 0.0195 240.74)",
+          "oklch(60% 0.0195 240.74)",
+          "oklch(75% 0.0195 240.74)",
+          "oklch(85% 0.0195 240.74)",
+          "oklch(95% 0.0195 240.74)"
+        ]
+      },
+      "muted": {
+        "displayName": "Supporting Slate",
+        "role": "neutral",
+        "tonalRamp": [
+          "oklch(15% 0.0511 245.00)",
+          "oklch(25% 0.0511 245.00)",
+          "oklch(35% 0.0511 245.00)",
+          "oklch(45% 0.0511 245.00)",
+          "oklch(60% 0.0511 245.00)",
+          "oklch(75% 0.0511 245.00)",
+          "oklch(85% 0.0511 245.00)",
+          "oklch(95% 0.0511 245.00)"
+        ]
+      },
+      "input-stroke": {
+        "displayName": "Field Slate",
+        "role": "neutral",
+        "tonalRamp": [
+          "oklch(15% 0.0456 242.07)",
+          "oklch(25% 0.0456 242.07)",
+          "oklch(35% 0.0456 242.07)",
+          "oklch(45% 0.0456 242.07)",
+          "oklch(60% 0.0456 242.07)",
+          "oklch(75% 0.0456 242.07)",
+          "oklch(85% 0.0456 242.07)",
+          "oklch(95% 0.0456 242.07)"
+        ]
+      },
+      "link": {
+        "displayName": "Link Blue",
+        "role": "secondary",
+        "tonalRamp": [
+          "oklch(15% 0.0980 249.12)",
+          "oklch(25% 0.0980 249.12)",
+          "oklch(35% 0.0980 249.12)",
+          "oklch(45% 0.0980 249.12)",
+          "oklch(60% 0.0980 249.12)",
+          "oklch(75% 0.0980 249.12)",
+          "oklch(85% 0.0980 249.12)",
+          "oklch(95% 0.0980 249.12)"
+        ]
+      },
+      "pending": {
+        "displayName": "Pending Amber",
+        "role": "tertiary",
+        "tonalRamp": [
+          "oklch(15% 0.0982 77.06)",
+          "oklch(25% 0.0982 77.06)",
+          "oklch(35% 0.0982 77.06)",
+          "oklch(45% 0.0982 77.06)",
+          "oklch(60% 0.0982 77.06)",
+          "oklch(75% 0.0982 77.06)",
+          "oklch(85% 0.0982 77.06)",
+          "oklch(95% 0.0982 77.06)"
+        ]
+      },
+      "error": {
+        "displayName": "Error Red",
+        "role": "tertiary",
+        "tonalRamp": [
+          "oklch(15% 0.1458 27.85)",
+          "oklch(25% 0.1458 27.85)",
+          "oklch(35% 0.1458 27.85)",
+          "oklch(45% 0.1458 27.85)",
+          "oklch(60% 0.1458 27.85)",
+          "oklch(75% 0.1458 27.85)",
+          "oklch(85% 0.1458 27.85)",
+          "oklch(95% 0.1458 27.85)"
+        ]
+      },
+      "error-surface": {
+        "displayName": "Pale Error",
+        "role": "tertiary",
+        "tonalRamp": [
+          "oklch(15% 0.0165 26.65)",
+          "oklch(25% 0.0165 26.65)",
+          "oklch(35% 0.0165 26.65)",
+          "oklch(45% 0.0165 26.65)",
+          "oklch(60% 0.0165 26.65)",
+          "oklch(75% 0.0165 26.65)",
+          "oklch(85% 0.0165 26.65)",
+          "oklch(95% 0.0165 26.65)"
+        ]
+      },
+      "focus": {
+        "displayName": "Focus Amber",
+        "role": "tertiary",
+        "tonalRamp": [
+          "oklch(15% 0.1375 55.87)",
+          "oklch(25% 0.1375 55.87)",
+          "oklch(35% 0.1375 55.87)",
+          "oklch(45% 0.1375 55.87)",
+          "oklch(60% 0.1375 55.87)",
+          "oklch(75% 0.1375 55.87)",
+          "oklch(85% 0.1375 55.87)",
+          "oklch(95% 0.1375 55.87)"
+        ]
+      },
+      "selection-surface": {
+        "displayName": "Soft Selection Green",
+        "role": "tertiary",
+        "tonalRamp": [
+          "oklch(15% 0.0441 174.61)",
+          "oklch(25% 0.0441 174.61)",
+          "oklch(35% 0.0441 174.61)",
+          "oklch(45% 0.0441 174.61)",
+          "oklch(60% 0.0441 174.61)",
+          "oklch(75% 0.0441 174.61)",
+          "oklch(85% 0.0441 174.61)",
+          "oklch(95% 0.0441 174.61)"
+        ]
+      },
+      "selection-ink": {
+        "displayName": "Selection Ink",
+        "role": "tertiary",
+        "tonalRamp": [
+          "oklch(15% 0.0360 177.75)",
+          "oklch(25% 0.0360 177.75)",
+          "oklch(35% 0.0360 177.75)",
+          "oklch(45% 0.0360 177.75)",
+          "oklch(60% 0.0360 177.75)",
+          "oklch(75% 0.0360 177.75)",
+          "oklch(85% 0.0360 177.75)",
+          "oklch(95% 0.0360 177.75)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "primary-heading": {
+        "displayName": "Task heading",
+        "purpose": "Fixed inherited heading for the current form, publication or session."
+      },
+      "section-heading": {
+        "displayName": "Section heading",
+        "purpose": "Session status and saved-event or policy sections."
+      },
+      "brand": {
+        "displayName": "Cabinet brand",
+        "purpose": "Inherited heavier identity in the navy header."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "System typography with authored RU/KK nodes inside the Russian interface."
+      },
+      "label": {
+        "displayName": "Control label",
+        "purpose": "Native field labels and labelled actions."
+      },
+      "supporting": {
+        "displayName": "Supporting text",
+        "purpose": "Timer explanation, invalid-attempt context, event keys, digest and footer."
+      }
+    },
+    "breakpoints": [
+      {
+        "name": "stacked-layout",
+        "value": "700px"
+      },
+      {
+        "name": "narrow-table-search",
+        "value": "600px"
+      }
+    ],
+    "shadows": [],
+    "motion": []
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Explicit publication, session-start and native submit actions use the inherited green treatment.",
+      "html": "<button class=\"ds-button-primary\" type=\"button\" lang=\"ru\">Ввести цифру</button>",
+      "css": ".ds-button-primary{font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",sans-serif;font-size:inherit;display:inline-block;min-height:44px;padding:.65rem 1rem;border:1px solid var(--navy,#183e60);border-radius:7px;font-weight:600;cursor:pointer;background:var(--teal,#126653);color:#fff;border-color:var(--teal,#126653);}.ds-button-primary:hover{filter:brightness(1.13);background:#0b5343;}.ds-button-primary:focus-visible{outline:3px solid #bd671a;outline-offset:3px}.ds-button-primary:disabled{opacity:.55;cursor:not-allowed}@media(max-width:700px){.ds-button-primary{max-width:100%}}"
+    },
+    {
+      "name": "Secondary Button",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "White native actions cover refresh, return, explicit close and keypad digits.",
+      "html": "<button class=\"ds-button-secondary\" type=\"button\" lang=\"ru\">Обновить сессию</button>",
+      "css": ".ds-button-secondary{font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",sans-serif;font-size:inherit;display:inline-block;min-height:44px;padding:.65rem 1rem;border:1px solid var(--navy,#183e60);border-radius:7px;font-weight:600;cursor:pointer;background:#fff;color:var(--navy,#183e60);}.ds-button-secondary:hover{filter:brightness(1.13);}.ds-button-secondary:focus-visible{outline:3px solid #bd671a;outline-offset:3px}.ds-button-secondary:disabled{opacity:.55;cursor:not-allowed}@media(max-width:700px){.ds-button-secondary{max-width:100%}}"
+    },
+    {
+      "name": "Default Button",
+      "kind": "button",
+      "refersTo": "button-default",
+      "description": "The retained baseline button rule is navy filled; active session actions use the primary or secondary variant.",
+      "html": "<button class=\"ds-button-default\" type=\"button\" lang=\"ru\">Действие</button>",
+      "css": ".ds-button-default{font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",sans-serif;font-size:inherit;display:inline-block;min-height:44px;padding:.65rem 1rem;border:1px solid var(--navy,#183e60);border-radius:7px;font-weight:600;cursor:pointer;background:var(--navy,#183e60);color:#fff;}.ds-button-default:hover{filter:brightness(1.13);}.ds-button-default:focus-visible{outline:3px solid #bd671a;outline-offset:3px}.ds-button-default:disabled{opacity:.55;cursor:not-allowed}@media(max-width:700px){.ds-button-default{max-width:100%}}"
+    },
+    {
+      "name": "Labeled Authored Field",
+      "kind": "input",
+      "refersTo": "field",
+      "description": "Connected Russian labels and native authored RU/KK fields keep their language semantics separate.",
+      "html": "<label class=\"ds-label\" for=\"ds-prompt\" lang=\"ru\">Текст меню KK</label><textarea class=\"ds-field\" id=\"ds-prompt\" lang=\"kk\">Тек мысал: 1 — пішім, 0 — қызметкерге (модель).</textarea>",
+      "css": ".ds-label{font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",sans-serif;display:block;font-weight:600;margin:0 0 .35rem;color:#172e45}.ds-field{font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",sans-serif;font-size:inherit;width:100%;min-height:100px;resize:vertical;padding:.7rem;border:1px solid #7894aa;border-radius:7px;background:#fff;color:#172e45;caret-color:#174e7e}.ds-field:focus-visible{outline:3px solid #bd671a;outline-offset:3px}"
+    },
+    {
+      "name": "Form Panel",
+      "kind": "card",
+      "refersTo": "panel",
+      "description": "Flat white form surface; session metadata and chronological evidence remain on the page ground.",
+      "html": "<section class=\"ds-panel\" lang=\"ru\"><p>Начало запишет владельца, серверное время и единый срок ожидания. Это текстовая репетиция, не звонок.</p></section>",
+      "css": ".ds-panel{font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",sans-serif;color:#172e45;background:#fff;border:1px solid var(--line,#b9cbd9);border-radius:12px;padding:1.4rem;min-width:0}.ds-panel p{max-width:72ch;line-height:1.6;margin:.5rem 0 1rem}@media(max-width:700px){.ds-panel{padding:1rem}}"
+    },
+    {
+      "name": "Section Navigation",
+      "kind": "nav",
+      "refersTo": "navigation-current",
+      "description": "Native collection controls on the inherited pale strip identify the current Sessions section.",
+      "html": "<nav class=\"ds-nav\" aria-label=\"Разделы\" lang=\"ru\"><button class=\"ds-nav-button\" type=\"button\">Меню</button><button class=\"ds-nav-button\" type=\"button\">Цифры меню</button><button class=\"ds-nav-button\" type=\"button\">Публикации</button><button class=\"ds-nav-button\" type=\"button\" aria-current=\"page\">Сессии</button><button class=\"ds-nav-button\" type=\"button\">Данные и доступ</button><button class=\"ds-nav-button\" type=\"button\">Выйти</button></nav>",
+      "css": ".ds-nav{display:flex;gap:.5rem;padding:.7rem max(1.25rem,calc((100% - 1160px)/2));background:#dce9f3;border-bottom:1px solid var(--line,#b9cbd9)}.ds-nav-button{font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",sans-serif;font-size:inherit;display:inline-block;min-height:44px;padding:.65rem 1rem;border:1px solid var(--navy,#183e60);border-radius:7px;font-weight:600;cursor:pointer;background:transparent;border-color:transparent;color:var(--navy,#183e60)}.ds-nav-button[aria-current=\"page\"]{background:#fff;border-color:var(--line,#b9cbd9)}.ds-nav-button:hover{filter:brightness(1.13)}.ds-nav-button:focus-visible{outline:3px solid #bd671a;outline-offset:3px}@media(max-width:700px){.ds-nav{padding:.6rem;flex-wrap:wrap}.ds-nav-button{flex:1;max-width:100%}}@media(max-width:600px){.ds-nav-button{flex:auto}}"
+    },
+    {
+      "name": "Digit Keypad",
+      "kind": "custom",
+      "description": "Three-column secondary-button keypad; zero is centered on the last row. Static snippet shows appearance, not event execution.",
+      "html": "<div class=\"ds-keypad\" aria-label=\"Синтетическая клавиатура цифр\" lang=\"ru\"><button class=\"ds-key\" type=\"button\">1</button><button class=\"ds-key\" type=\"button\">2</button><button class=\"ds-key\" type=\"button\">3</button><button class=\"ds-key\" type=\"button\">4</button><button class=\"ds-key\" type=\"button\">5</button><button class=\"ds-key\" type=\"button\">6</button><button class=\"ds-key\" type=\"button\">7</button><button class=\"ds-key\" type=\"button\">8</button><button class=\"ds-key\" type=\"button\">9</button><button class=\"ds-key\" type=\"button\">0</button></div>",
+      "css": ".ds-keypad{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:.6rem;max-width:360px;margin:1rem 0}.ds-key{font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",sans-serif;font-size:inherit;display:inline-block;min-height:44px;padding:.65rem 1rem;border:1px solid var(--navy,#183e60);border-radius:7px;font-weight:600;cursor:pointer;background:#fff;color:var(--navy,#183e60)}.ds-key:last-child{grid-column:2}.ds-key:hover{filter:brightness(1.13)}.ds-key:focus-visible{outline:3px solid #bd671a;outline-offset:3px}.ds-key:disabled{opacity:.55;cursor:not-allowed}@media(max-width:700px){.ds-key{max-width:100%}}"
+    },
+    {
+      "name": "Session Event Evidence",
+      "kind": "custom",
+      "refersTo": "event-entry",
+      "description": "Numbered server-ordered evidence is followed by native exact-menu disclosure. Static synthetic content illustrates the saved chronology and authored-language split.",
+      "html": "<section class=\"ds-session\" lang=\"ru\"><h2>Сохранённые события</h2><ol class=\"ds-event-log\"><li><h3>Начало · 2026-10-25T13:52:26.921Z</h3><p>operator · вход нет · состояние Ожидает ввода</p><p>Ошибок: 0</p><p class=\"ds-authored\" lang=\"kk\">Тек мысал: 1 — пішім, 0 — қызметкерге (модель).</p><p class=\"ds-muted\">Ключ события: 5a16a4c7-6766-4541-a196-28ba7707bff4</p></li><li><h3>Неверная цифра · 2026-10-25T13:53:12.397Z</h3><p>operator · вход 9 · состояние Ожидает ввода</p><p>Ошибок: 1</p><p class=\"ds-muted\">Ключ события: bac079f7-1e5c-4b6c-bc94-1e7b9c3a9cf3</p></li><li><h3>Цифра принята · 2026-10-25T13:56:23.742Z</h3><p>operator · вход 0 · состояние К сотруднику (модель)</p><p>Ошибок: 1 · код HUMAN</p><p class=\"ds-authored\" lang=\"kk\">Қызметкерге (тек модель)</p><p class=\"ds-muted\">Ключ события: 3687d390-1f6f-424d-86e8-affb31ea0460</p></li></ol><details class=\"ds-menu\"><summary>Точное меню этой сессии</summary><h2>SYN_FORMAT · v3</h2><p>Ожидание от старта: 300 с. Предел неверных цифр: 2.</p><p class=\"ds-authored\" lang=\"ru\">Только пример: 1 — формат, 0 — к сотруднику (модель).</p><p class=\"ds-authored\" lang=\"kk\">Тек мысал: 1 — пішім, 0 — қызметкерге (модель).</p><ol><li>Цифра 0 · К сотруднику (модель) · HUMAN<p lang=\"ru\">К сотруднику (только модель)</p><p lang=\"kk\">Қызметкерге (тек модель)</p></li><li>Цифра 1 · Завершение модели · FORMAT<p lang=\"ru\">Посмотреть формат</p><p lang=\"kk\">Пішімді қарау</p></li></ol><p class=\"ds-muted\">Одна плоская модель. Нет аудио, номера, звонка или реальной передачи.</p></details><p class=\"ds-muted\">SHA256 публикации: 924e5433ac0a7debc676b89a6199f4c664516823712f32f38304bbb6f2c06fa0</p></section>",
+      "css": ".ds-session{font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",sans-serif;color:#172e45;min-width:0;overflow-wrap:anywhere}.ds-session h2{font-size:1.3rem;margin:2rem 0 .75rem;min-width:0;overflow-wrap:anywhere}.ds-session p{max-width:72ch;line-height:1.6;margin:.5rem 0 1rem;overflow-wrap:anywhere}.ds-event-log{padding-left:1.6rem;overflow-wrap:anywhere}.ds-event-log>li{padding:.8rem 0;border-bottom:1px solid var(--line,#b9cbd9)}.ds-menu{margin-top:1rem;min-width:0;overflow-wrap:anywhere}.ds-menu summary{min-height:44px;cursor:pointer;display:list-item;padding:.7rem 0}.ds-menu summary:focus-visible{outline:3px solid #bd671a;outline-offset:3px}.ds-authored{white-space:pre-wrap}.ds-muted{color:#46627a;font-size:.9rem}"
+    },
+    {
+      "name": "Record Table",
+      "kind": "custom",
+      "description": "Native record table owns horizontal scrolling inside its focusable wrapper.",
+      "html": "<div class=\"ds-table-wrap\" tabindex=\"0\" aria-label=\"Таблица записей; горизонтальная прокрутка.\" lang=\"ru\"><table class=\"ds-table\"><thead><tr><th scope=\"col\">Запись</th><th scope=\"col\">Источник / название</th><th scope=\"col\">Результат / язык</th><th scope=\"col\">Контекст / автор</th></tr></thead><tbody><tr><td>SYN_FORMAT · v3</td><td>KK · operator</td><td>К сотруднику (модель)</td><td>3 событий · ошибок 1</td></tr></tbody></table></div>",
+      "css": ".ds-table-wrap{font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",sans-serif;color:#172e45;overflow:auto;margin-top:1rem;border:1px solid var(--line,#b9cbd9);border-radius:12px;background:#fff}.ds-table-wrap:focus-visible{outline:3px solid #bd671a;outline-offset:3px}.ds-table{border-collapse:collapse;width:100%;font-variant-numeric:tabular-nums}.ds-table th,.ds-table td{text-align:left;padding:.9rem;vertical-align:top;border-bottom:1px solid var(--line,#b9cbd9);overflow-wrap:anywhere;max-width:28ch}.ds-table th{background:#dce9f3;font-size:.9rem}.ds-table tr:last-child td{border-bottom:0}@media(max-width:600px){.ds-table th,.ds-table td{min-width:140px}.ds-table{font-size:.9rem}}"
+    },
+    {
+      "name": "Refusal Notice",
+      "kind": "custom",
+      "description": "Focused polite status feedback above the retained session or form.",
+      "html": "<div class=\"ds-notice\" role=\"status\" aria-live=\"polite\" tabindex=\"-1\" lang=\"ru\">Данные изменились в другой вкладке. Обновите экран перед сохранением.</div>",
+      "css": ".ds-notice{font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",sans-serif;color:#942721;background:#fff0ee;padding:1rem;border:1px solid var(--line,#b9cbd9);border-radius:7px;margin-bottom:1rem}.ds-notice:focus-visible{outline:3px solid #bd671a;outline-offset:3px}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Shared Work Cabinet",
+    "overview": "TerimLine extends the documented SynaRoute / JolFlow Operate cabinet. It keeps the navy identity and navigation, pale blue workspace, white labelled forms, green explicit actions, system typography, and native controls. The incumbent system remains the visual authority.\n\nIts character is direct, flat, and readable. Published menu text remains visible beside the session's selected language, owner, fixed deadline and invalid-attempt count. The task-specific expression is a restrained digit keypad followed by numbered server-ordered evidence, with the exact historical menu available through native disclosure.",
+    "keyCharacteristics": [
+      "Inherited navy navigation and pale blue workspace.",
+      "Green labelled submit actions and white bordered form panels.",
+      "System typography with a fixed-size task heading.",
+      "A compact three-column digit keypad with zero centered below.",
+      "Numbered event chronology and native exact-menu disclosure.",
+      "Wrapping authored text, timestamps, event keys and publication digests; deliberate task focus."
+    ],
+    "rules": [
+      {
+        "name": "The Inherited Shell Rule",
+        "body": "Extend the current SynaRoute / JolFlow cabinet instead of replacing its palette, typography, or navigation grammar.",
+        "section": "colors"
+      },
+      {
+        "name": "The Authored Language Rule",
+        "body": "Keep authored RU/KK text in its own language nodes; digits, status labels and model-outcome suffixes remain Russian interface text.",
+        "section": "typography"
+      },
+      {
+        "name": "The Explicit Event Rule",
+        "body": "The countdown informs; a labelled owner action requests the next event. Never portray elapsed screen time as an already saved event.",
+        "section": "components"
+      },
+      {
+        "name": "The Chronological Evidence Rule",
+        "body": "Keep event order, server timestamp, actor, input, status, invalid count and event key together; show authored labels only where the saved event supplies them.",
+        "section": "components"
+      },
+      {
+        "name": "The Historical Menu Rule",
+        "body": "Keep the session tied to its displayed publication version and exact-menu disclosure; later draft text must not visually replace that historical evidence.",
+        "section": "components"
+      }
+    ],
+    "dos": [
+      "Do inherit the navy header, pale workspace, white form surfaces and green primary action.",
+      "Do keep native controls, disclosure markers, ordered-list numbering and visible focus.",
+      "Do preserve authored RU/KK nodes within Russian interface copy.",
+      "Do allow long prompts, version labels, timestamps, event keys and SHA256 digests to wrap.",
+      "Do keep fixed deadline and invalid-attempt context near the explicit digit and close controls.",
+      "Do retain event chronology and the exact historical menu beside the model-only result."
+    ],
+    "donts": [
+      "Don't replace the inherited cabinet with a new visual identity, ornamental assets or animation.",
+      "Don't clip session evidence or remove native exact-menu disclosure affordances.",
+      "Don't imply that the screen timer records a timeout or that an early timeout is saved.",
+      "Don't imply a real call, DTMF carrier, voice, AI, external message or actual employee transfer.",
+      "Don't substitute current drafts for saved publication or event text.",
+      "Don't present the displayed SHA256 digest as a signed export or security certification."
+    ]
+  }
+}

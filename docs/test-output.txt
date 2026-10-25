@@ -1,0 +1,166 @@
+TAP version 13
+# Subtest: published RU/KK prompts and digit outcomes snapshot independently from drafts
+ok 1 - published RU/KK prompts and digit outcomes snapshot independently from drafts
+  ---
+  duration_ms: 17.11425
+  type: 'test'
+  ...
+# Subtest: unmapped valid digit appends invalid event; mapped digit then resolves
+ok 2 - unmapped valid digit appends invalid event; mapped digit then resolves
+  ---
+  duration_ms: 1.389375
+  type: 'test'
+  ...
+# Subtest: invalid limit is terminal; old event prefix unchanged
+ok 3 - invalid limit is terminal; old event prefix unchanged
+  ---
+  duration_ms: 1.989042
+  type: 'test'
+  ...
+# Subtest: malformed digits rejected and do not consume retry
+ok 4 - malformed digits rejected and do not consume retry
+  ---
+  duration_ms: 1.2075
+  type: 'test'
+  ...
+# Subtest: early explicit timeout refuses full workspace/audit
+ok 5 - early explicit timeout refuses full workspace/audit
+  ---
+  duration_ms: 0.656125
+  type: 'test'
+  ...
+# Subtest: deadline equality wins over a valid digit; no mapped outcome applied
+ok 6 - deadline equality wins over a valid digit; no mapped outcome applied
+  ---
+  duration_ms: 0.821917
+  type: 'test'
+  ...
+# Subtest: cancel before deadline differs from cancel at deadline
+ok 7 - cancel before deadline differs from cancel at deadline
+  ---
+  duration_ms: 0.995042
+  type: 'test'
+  ...
+# Subtest: invalid digit does not extend original timeout
+ok 8 - invalid digit does not extend original timeout
+  ---
+  duration_ms: 0.793208
+  type: 'test'
+  ...
+# Subtest: read and wall clock passage alone add no event or revision
+ok 9 - read and wall clock passage alone add no event or revision
+  ---
+  duration_ms: 0.724209
+  type: 'test'
+  ...
+# Subtest: only session owner acts, admin cannot bypass
+ok 10 - only session owner acts, admin cannot bypass
+  ---
+  duration_ms: 1.106084
+  type: 'test'
+  ...
+# Subtest: stale global revision and stale event sequence independently refuse
+ok 11 - stale global revision and stale event sequence independently refuse
+  ---
+  duration_ms: 1.046042
+  type: 'test'
+  ...
+# Subtest: event key cannot replay with fresh revision or across sessions
+ok 12 - event key cannot replay with fresh revision or across sessions
+  ---
+  duration_ms: 1.097041
+  type: 'test'
+  ...
+# Subtest: creation key stays used after terminal/archive and fresh revision
+ok 13 - creation key stays used after terminal/archive and fresh revision
+  ---
+  duration_ms: 0.896458
+  type: 'test'
+  ...
+# Subtest: terminal states and active archive guards prevent hiding or reopening history
+ok 14 - terminal states and active archive guards prevent hiding or reopening history
+  ---
+  duration_ms: 1.1015
+  type: 'test'
+  ...
+# Subtest: archived policy closes starts but existing session can finish snapshot
+ok 15 - archived policy closes starts but existing session can finish snapshot
+  ---
+  duration_ms: 2.657375
+  type: 'test'
+  ...
+# Subtest: publication version uniqueness includes archived copies, edits permit next
+ok 16 - publication version uniqueness includes archived copies, edits permit next
+  ---
+  duration_ms: 0.819791
+  type: 'test'
+  ...
+# Subtest: draft incomplete prompt permitted, publication needs both and at least one digit
+ok 17 - draft incomplete prompt permitted, publication needs both and at least one digit
+  ---
+  duration_ms: 0.741667
+  type: 'test'
+  ...
+# Subtest: active digit uniqueness/archive version; all ten digits publish
+ok 18 - active digit uniqueness/archive version; all ten digits publish
+  ---
+  duration_ms: 1.771166
+  type: 'test'
+  ...
+# Subtest: server ignores supplied timestamps/owner/status/events, language and publication cannot change
+ok 19 - server ignores supplied timestamps/owner/status/events, language and publication cannot change
+  ---
+  duration_ms: 0.600292
+  type: 'test'
+  ...
+# Subtest: backward server clock refuses, forward clock beyond deadline times out
+ok 20 - backward server clock refuses, forward clock beyond deadline times out
+  ---
+  duration_ms: 0.760791
+  type: 'test'
+  ...
+# Subtest: two SQLite connections same revision cannot append two competing events
+ok 21 - two SQLite connections same revision cannot append two competing events
+  ---
+  duration_ms: 5.608792
+  type: 'test'
+  ...
+# Subtest: file restart preserves active deadline/audit and later exact timeout
+ok 22 - file restart preserves active deadline/audit and later exact timeout
+  ---
+  duration_ms: 5.925708
+  type: 'test'
+  ...
+# Subtest: empty restore retains terminal/active histories and can continue active with original deadline
+ok 23 - empty restore retains terminal/active histories and can continue active with original deadline
+  ---
+  duration_ms: 1.795416
+  type: 'test'
+  ...
+# Subtest: corrupt replay/order/time/outcome/digest/key copies reject atomically
+ok 24 - corrupt replay/order/time/outcome/digest/key copies reject atomically
+  ---
+  duration_ms: 2.205417
+  type: 'test'
+  ...
+# Subtest: HTTP cabinet protected, product cookie/roles/CSRF/Origin enforced
+ok 25 - HTTP cabinet protected, product cookie/roles/CSRF/Origin enforced
+  ---
+  duration_ms: 134.265583
+  type: 'test'
+  ...
+# Subtest: HTTP server clock and owner/replay rejection preserve whole data/audit; timed digit becomes timeout
+ok 26 - HTTP server clock and owner/replay rejection preserve whole data/audit; timed digit becomes timeout
+  ---
+  duration_ms: 101.708042
+  type: 'test'
+  ...
+1..26
+# tests 26
+# suites 0
+# pass 26
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 359.793167

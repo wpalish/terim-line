@@ -1,0 +1,81 @@
+{
+  "product": "terim-line",
+  "title": "TerimLine",
+  "reference": 9,
+  "version": "0.1.0",
+  "as_of": "2026-10-25T14:02:34.218553+00:00",
+  "tests": {
+    "passed": 26,
+    "failed": 0,
+    "log": "docs/test-output.txt"
+  },
+  "browser": {
+    "status": "ui_workflow_passed",
+    "synthetic_only": true,
+    "acceptance": [
+      "Actual IAB alpha and Chrome coordinator: old digit form after new KK draft text refused with entire workspace6/audit6 unchanged and input9 retained. Frozen v3 KK text stayed exact.",
+      "Fresh invalid9 then digit0 saved handover_model HUMAN with1 error and3 events. Second RU session continued after publication archive; two9 digits reached invalid_limit. No actual transfer or call.",
+      "Browser v5 with5s deadline refused early explicit timeout; time passage and read-only refresh left entire workspace/audit unchanged. Later valid1 recorded timeout with empty outcome and no FORMAT action.",
+      "Six authorized HTTP400 refusals kept whole workspace16/audit16: archived new start, terminal append, beta/admin owner bypass, used event key, stale revision.",
+      "Owned restart30804→31087 preserved full workspace16/audit16.26 previous server fingerprints unchanged; public owner SabaqLoop origin untouched.",
+      "Valid full1440/1280/390 terminal captures and1440/390 active captures opened; scrollWidth equals viewport, authoredKK lang=kk, UIru. Enter submit, disclosure and focus observed.",
+      "After UI language fix, newKKv5 session explicitlycancelled before deadline. Final4sessions/workspace18/audit18;all3earlier sessions/menus/choices/publications exact."
+    ],
+    "proof": "docs/browser-proof.json",
+    "desktop": "docs/desktop-full.png",
+    "mobile": "docs/mobile-full.png",
+    "actual_viewports": [
+      1440,
+      1280,
+      390
+    ],
+    "external_message_sent": false
+  },
+  "acceptance": [
+    "26 passing domain/HTTP/file tests: RU/KK publications, invalid/valid digits, fixed deadline and exact boundary, early timeout/cancel, clock rollback, revision/sequence/key guards, roles/Origin/CSRF/cookie, two SQLite connections, restart/empty restore/corrupt copies.",
+    "Actual IAB alpha and Chrome coordinator: old digit form after new KK draft text refused with entire workspace6/audit6 unchanged and input9 retained. Frozen v3 KK text stayed exact.",
+    "Fresh invalid9 then digit0 saved handover_model HUMAN with1 error and3 events. Second RU session continued after publication archive; two9 digits reached invalid_limit. No actual transfer or call.",
+    "Browser v5 with5s deadline refused early explicit timeout; time passage and read-only refresh left entire workspace/audit unchanged. Later valid1 recorded timeout with empty outcome and no FORMAT action.",
+    "Six authorized HTTP400 refusals kept whole workspace16/audit16: archived new start, terminal append, beta/admin owner bypass, used event key, stale revision.",
+    "Owned restart30804→31087 preserved full workspace16/audit16.26 previous server fingerprints unchanged; public owner SabaqLoop origin untouched.",
+    "Valid full1440/1280/390 terminal captures and1440/390 active captures opened; scrollWidth equals viewport, authoredKK lang=kk, UIru. Enter submit, disclosure and focus observed.",
+    "After UI language fix, newKKv5 session explicitlycancelled before deadline. Final4sessions/workspace18/audit18;all3earlier sessions/menus/choices/publications exact."
+  ],
+  "limits": [
+    "Flat menu with1–10 digits0–9, authored RU/KK prompts and labels; no nested graph or automatic translation. Draft can lack prompts; publication requires both.",
+    "5–300 seconds from server start;1–5 invalid digits. Deadline never extends. Time/read alone does not write; owner must submit an action. At or after deadline timeout outranks valid digit or cancellation. No background scheduler.",
+    "Wall-clock rollback before last event refuses; a forward clock jump may expire the session. Tests inject clocks; no claim of synchronized distributed time or carrier timing.",
+    "Only starting owner appends. Admin cannot bypass owner. All staff read shared workspace; not tenant/customer isolation. Session ownership is not proof of identity or training performance.",
+    "One event per successful command; used UUID keys refuse, not idempotent successful replay. Global revision also conflicts unrelated changes; expectedSeq independently guards ordered events. UI preview/hash not required by HTTP and not proof of human approval.",
+    "Publication/session snapshots and past events immutable. No full intermediate draft text history. Published version stays consumed after archive. Archive closes new starts; active old sessions continue; active session cannot be archived/reopened/transferred.",
+    "Unsigned JSON/hash check consistency, not authenticity; users/auth sessions/audit excluded; restore only empty workspace. HTTPJSON2MB; reserve full SQLite consistently separately.",
+    "No real phone/number/audio/DTMF carrier/ASR/TTS/LLM/messages/real handover/integration/payment. Model outcome is not external service, delivery, consent or learning result.",
+    "No password reset/session revocation UI, public server hosting, load test, full touch/screenreader/mobile or external security audit."
+  ],
+  "runtime": {
+    "pid": 31087,
+    "port": 8849,
+    "script": "work/program/run-terim-line.mjs",
+    "before": "work/program/terim-restart-before.json",
+    "after": "work/program/terim-restart-after.json"
+  },
+  "preservation": {
+    "before": "work/program/terim-prior-before.json",
+    "after": "work/program/terim-prior-after.json",
+    "previous_servers": 26,
+    "sabaqloop_owner_origin": "untouched"
+  },
+  "review": {
+    "status": "ship",
+    "file": "docs/finish-review.json",
+    "scope": "Initial source/capture UI review found1language issue; verdict scored F1 resolved only. Not new full UI/security audit.",
+    "static_detector": "One --json invocation returned[]; not parsed-browser/security clean bill"
+  },
+  "commercial": {
+    "potential_company_matches": 10,
+    "qualified_buyers": 0,
+    "interest_confirmed": 0,
+    "new_sends": 0
+  },
+  "release_note": "TerimLine reference9: original flat RU/KK synthetic keypad-session rehearsal with frozen publication, fixed server deadline, owner-only ordered events and immutable outcomes.26tests; actual stale refusal6/audit6, HUMAN/invalid_limit/timeout outcomes,6HTTP refusals16/audit16. Owned restart and26priorDBs preserved. No phone/audio/AI/message/realhandover/customer claim. After UIreviewF1 languagefix,a fourthKKsession cancelled beforedeadline;final18/audit18,earlier3sessions exact."
+}

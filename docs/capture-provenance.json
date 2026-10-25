@@ -1,0 +1,17 @@
+{
+  "origin": "Own actual browser screenshots of authored synthetic data, captured through CUA on 2026-10-25",
+  "files": [
+    "desktop-full.png",
+    "user-1280.png",
+    "mobile-full.png",
+    "active-desktop.png",
+    "active-mobile.png"
+  ],
+  "decorative_rasters": false,
+  "viewports": [
+    1440,
+    1280,
+    390
+  ],
+  "owner_public_workspace_mutated": false
+}

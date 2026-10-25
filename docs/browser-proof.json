@@ -1,0 +1,145 @@
+{
+  "synthetic": true,
+  "revision": 16,
+  "audit": 16,
+  "counts": {
+    "menus": 1,
+    "choices": 2,
+    "publications": 2,
+    "sessions": 3
+  },
+  "session_outcomes": [
+    {
+      "language": "kk",
+      "menu_version": 3,
+      "status": "handover_model",
+      "invalids": 1,
+      "events": 3,
+      "deadline": "2026-10-25T13:57:26.921Z",
+      "final_event": {
+        "seq": 3,
+        "action": "digit",
+        "type": "choice",
+        "digit": "0",
+        "at": "2026-10-25T13:56:23.742Z",
+        "by": "alpha",
+        "requestKey": "3687d390-1f6f-424d-86e8-affb31ea0460",
+        "invalids": 1,
+        "status": "handover_model",
+        "outcome": "HUMAN",
+        "choiceId": "ab28a387-add4-4b5f-8919-901ebb86edaf",
+        "label": "Қызметкерге (тек модель)"
+      }
+    },
+    {
+      "language": "ru",
+      "menu_version": 3,
+      "status": "invalid_limit",
+      "invalids": 2,
+      "events": 3,
+      "deadline": "2026-10-25T14:02:04.121Z",
+      "final_event": {
+        "seq": 3,
+        "action": "digit",
+        "type": "invalid",
+        "digit": "9",
+        "at": "2026-10-25T13:57:15.705Z",
+        "by": "alpha",
+        "requestKey": "6f166cef-d4a0-4a5b-a852-6bd9885a16ad",
+        "invalids": 2,
+        "status": "invalid_limit",
+        "outcome": "",
+        "choiceId": "",
+        "label": ""
+      }
+    },
+    {
+      "language": "ru",
+      "menu_version": 5,
+      "status": "timeout",
+      "invalids": 0,
+      "events": 2,
+      "deadline": "2026-10-25T13:57:58.559Z",
+      "final_event": {
+        "seq": 2,
+        "action": "digit",
+        "type": "timeout",
+        "digit": "1",
+        "at": "2026-10-25T13:58:13.552Z",
+        "by": "alpha",
+        "requestKey": "84be95d5-6374-4c21-b0be-d5efbeba649d",
+        "invalids": 0,
+        "status": "timeout",
+        "outcome": "",
+        "choiceId": "",
+        "label": ""
+      }
+    }
+  ],
+  "stale_form_refusal": {
+    "revision": 6,
+    "audit": 6,
+    "whole_state_unchanged": true,
+    "input_retained": true
+  },
+  "elapsed_time_and_read_only_refresh": {
+    "whole_state_unchanged": true
+  },
+  "authorized_http_refusals": [
+    {
+      "label": "new start on archived publication",
+      "http": 400,
+      "error": "Меню или публикация в архиве. Новый старт закрыт.",
+      "all_workspace_and_audit_unchanged": true
+    },
+    {
+      "label": "terminal session cannot reopen",
+      "http": 400,
+      "error": "Сессия завершена. Повторное открытие невозможно.",
+      "all_workspace_and_audit_unchanged": true
+    },
+    {
+      "label": "foreign owner cannot append",
+      "http": 400,
+      "error": "Только владелец добавляет события этой сессии.",
+      "all_workspace_and_audit_unchanged": true
+    },
+    {
+      "label": "admin cannot bypass owner",
+      "http": 400,
+      "error": "Только владелец добавляет события этой сессии.",
+      "all_workspace_and_audit_unchanged": true
+    },
+    {
+      "label": "used event key",
+      "http": 400,
+      "error": "Ключ события уже использован или неверен. Обновите сессию.",
+      "all_workspace_and_audit_unchanged": true
+    },
+    {
+      "label": "stale workspace revision",
+      "http": 400,
+      "error": "Данные изменились в другой вкладке. Обновите экран перед сохранением.",
+      "all_workspace_and_audit_unchanged": true
+    }
+  ],
+  "viewports": [
+    1440,
+    1280,
+    390
+  ],
+  "horizontal_overflow": false,
+  "kk_lang_elements": 8,
+  "keyboard": "Enter submitted session/digit; native disclosure Enter expanded; result heading/error notice focus observed",
+  "limitations": "Synthetic text model only; no call/audio/carrier/message/real handover. Snapshot consistency is not signed authenticity. No whole-mobile/touch/screenreader/security audit.",
+  "final_after_ui_review": {
+    "revision": 18,
+    "audit": 18,
+    "sessions": 4,
+    "added": "FreshKKv5 session captured at1440/390 then explicitlycancelledbefore5s deadline;3 earlier sessions andallmenus/choices/publications exact.",
+    "current_choice_semantics": {
+      "row_and_outcome": "ru",
+      "author_label": "kk"
+    }
+  }
+}

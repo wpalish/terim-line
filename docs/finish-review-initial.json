@@ -1,0 +1,121 @@
+{
+  "disposition": "fix",
+  "persistence": {
+    "status": "pass",
+    "scope": "Independent finish review of the supplied TerimLine source and five required captures. No browser was run by this reviewer.",
+    "product": "PRODUCT.md exists and describes the bounded synthetic flat-menu rehearsal, server-ordered events, owner rights, immutable publication, deadline and model-only outcome.",
+    "direction": "The workspace surface brief persists THESIS, OWN-WORLD, STORY, FIRST VIEWPORT, FORM and FINISH. The supplied brief explicitly selects an inherited Operate extension, code-led, with no new visual world, comp or seed. Comp build state and comp diffs are therefore not applicable. FORM records seed: none (unavailable); the standalone check-seed none command returned exit 1 because this runtime can produce references. That command does not corroborate unavailability; the no-new-concept exemption here rests on the explicit supplied extension scope.",
+    "design_document": "The incumbent SynaRoute DESIGN.md matches the implemented cabinet. A TerimLine DESIGN.md is owed by the subsequent documentation step, not treated as a pre-review failure.",
+    "capture_validity": [
+      {
+        "file": ".impeccable/review/active-1440.png",
+        "dimensions": "1440x1978",
+        "status": "valid",
+        "observed": "Document top, header, navigation, KK v3 active session, one invalid attempt out of two, prompt/choices, fixed deadline, digit form, keypad, explicit cancel/timeout controls, two chronological events and collapsed exact-menu disclosure."
+      },
+      {
+        "file": ".impeccable/review/active-390.png",
+        "dimensions": "390x2304",
+        "status": "valid",
+        "observed": "Same active state from document top; navigation wraps, keypad remains three columns, actions and authored text wrap, and event keys/digest stay within the document."
+      },
+      {
+        "file": ".impeccable/review/terminal-1440.png",
+        "dimensions": "1440x2159",
+        "status": "valid",
+        "observed": "Document top, historical KK v3 terminal model outcome HUMAN, three numbered events and expanded exact publication snapshot."
+      },
+      {
+        "file": ".impeccable/review/terminal-1280.png",
+        "dimensions": "1280x2159",
+        "status": "valid",
+        "observed": "Same historical terminal state and expanded snapshot at the required intermediate width, without visible clipping."
+      },
+      {
+        "file": ".impeccable/review/terminal-390.png",
+        "dimensions": "390x2624",
+        "status": "valid",
+        "observed": "Same terminal state from document top; timestamps, event keys, both authored languages and digest wrap; native disclosure and complete footer remain visible."
+      }
+    ],
+    "evidence_limits": "All five named captures were opened. Their pixel dimensions were read with sips. The parent reports DOM scrollWidth equal to 1440/1280/390 and observed Enter submission, native disclosure, focus and retained error input; those interactions were not independently rerun here. work/program/terim-line-detect.json contains []; this is the supplied static detector result, not browser, security, complete mobile, touch or screen-reader clearance. No second detector ran."
+  },
+  "fidelity": {
+    "matrix": [
+      {
+        "element": "TYPE",
+        "verdict": "match",
+        "evidence": "public/styles.css uses the inherited system stack, 2rem task heading and 1.3rem section heading. All five captures retain readable task hierarchy and native control type. System typography is explicitly part of this Operate world."
+      },
+      {
+        "element": "MATERIAL",
+        "verdict": "match",
+        "evidence": "The captures use flat white form surfaces, native controls/disclosure, one-pixel dividers and pale workspace. There is no simulated physical material, ornament, raster asset or motion obligation in this contract."
+      },
+      {
+        "element": "GROUND",
+        "verdict": "match",
+        "evidence": "public/styles.css defines #edf3f8 workspace, #183e60 header, white fields and #126653 submit actions, matching the named incumbent palette and the visible captures."
+      },
+      {
+        "element": "Inherited shell and task orientation",
+        "verdict": "match",
+        "evidence": "Header identity, current Sessions navigation, pale navigation strip, fixed task heading and green explicit submit preserve the supplied SynaRoute cabinet. On 390px, navigation wraps without obscuring the task."
+      },
+      {
+        "element": "Active session sequence",
+        "verdict": "match",
+        "evidence": "active-1440.png and active-390.png lead with menu/version/language/owner, active state, server start/deadline, authored prompt and choices, invalid count, then explicit digit/cancel/timeout operations. The timer says it is based on the last synchronization. public/app.js:35-38 follows that order."
+      },
+      {
+        "element": "One explicit action, one chronological event",
+        "verdict": "match",
+        "evidence": "Active captures show start followed by invalid digit 9; terminal captures add accepted digit 0, status and HUMAN code. Numbered events carry timestamp, actor, input, error count and request key. public/app.js:37-40 submits one action and renders row.events in order; module.js validates prior history and exactly one appended event. This is source/capture evidence, not an independently rerun backend test."
+      },
+      {
+        "element": "Historical exact-menu evidence and truth boundary",
+        "verdict": "match",
+        "evidence": "All three terminal captures show v3 and HUMAN beside explicit model-only wording, with the exact-menu disclosure expanded below the chronological events. The snapshot contains both RU/KK texts, digits, timeout and invalid limit. The digest is labelled SHA256 publication, with no signature or external-service claim."
+      },
+      {
+        "element": "Sessions list first viewport",
+        "verdict": "match",
+        "evidence": "Source-supported only: public/app.js:23 places the Sessions heading/description before Start session and Refresh actions; default active='sessions' is set at line 3. A list capture was not part of the required packet, so this is not a visual list-viewport verification."
+      },
+      {
+        "element": "Authored KK text within Russian interface",
+        "verdict": "contradicted",
+        "evidence": "public/index.html:2 sets lang=ru, and authored() assigns kk correctly for authored KK. However, public/app.js:35 wraps the entire choice li with authored(..., row.language), including the appended Russian labels[c.kind] text. The visible KK choices therefore assign lang=kk to Russian interface outcome phrases such as 'К сотруднику (модель)' and 'Завершение модели'. This contradicts the supplied authored-KK/UI-Russian language separation. No screen-reader behavior was tested."
+      },
+      {
+        "element": "Responsive evidence and browser surfaces",
+        "verdict": "match",
+        "evidence": "At 1440/1280/390px the supplied captures show no overlap or document clipping. Long keys and hashes wrap at 390px; native disclosure markers and amber focus remain visible. Source declares selection colors, caret, scrollbar, focus and 44px minimum buttons. This conclusion covers the shown states and widths only."
+      }
+    ],
+    "contract": {
+      "THESIS": "Kept: menu rehearsal and chronological evidence lead, with no suggestion of a real call.",
+      "OWN-WORLD": "Kept: inherited navy/pale-blue/white/green native cabinet, system type, native disclosure, no ornamental assets or animation.",
+      "STORY": "Kept in source and supplied states: publish exact menu, start own RU/KK session, enter a digit or close explicitly, inspect immutable sequence and outcome.",
+      "FIRST_VIEWPORT": "Kept for supplied active/terminal detail captures and source-supported list structure; deadline, invalid count, authored prompt/choices and explicit controls remain findable.",
+      "FORM": "Kept as a precise inherited Operate extension. No replacement aesthetic or comp was requested.",
+      "FINISH": "Review is persisted here; the material language fix, verdict pass and TerimLine design documentation remain before the finish condition is discharged."
+    }
+  },
+  "ceiling": {
+    "status": "reached_with_one_material_fix",
+    "assessment": "The supplied quality bar asks for precise operation and evidence. The render uses the world's appropriate devices: restrained native forms, actual event chronology, exact snapshot disclosure, visible focus, wrapping and explicit model-only outcomes. Additional ornamental framing, lettering treatment, imagery or motion would not improve the stated Operate task. The remaining gap is semantic language precision, not unused visual expression."
+  },
+  "material_fixes": [
+    {
+      "id": "F1",
+      "priority": 2,
+      "check": "Fidelity: authored KK text / Russian UI separation",
+      "file": "public/app.js",
+      "line": 35,
+      "fix": "Keep the choice li, digit and Russian model-outcome suffix under the interface's inherited lang=ru. Put only the authored choice label in its own authored span with row.language. Preserve the same visible wording and order. Return the same required captures after the batch plus source evidence of the separated language nodes for a verdict pass.",
+      "evidence": "sessionDetail currently passes digit + authored label + Russian labels[c.kind] together into authored('li', ..., row.language), so KK also marks the Russian suffix as kk."
+    }
+  ],
+  "keep": "Preserve the inherited cabinet, authored RU/KK text, explicit owner action, fixed server deadline, numbered immutable event chronology, exact historical menu disclosure and clear model-only outcome boundary."
+}

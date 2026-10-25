@@ -1,0 +1,13 @@
+{
+  "initial_review": "finish-review-initial.json",
+  "final_verdict": "finish-review.json",
+  "capture_files": {
+    ".impeccable/review/active-1440.png": "active-desktop.png",
+    ".impeccable/review/active-390.png": "active-mobile.png",
+    ".impeccable/review/terminal-1440.png": "desktop-full.png",
+    ".impeccable/review/terminal-1280.png": "user-1280.png",
+    ".impeccable/review/terminal-390.png": "mobile-full.png"
+  },
+  "original_workspace_initial_record": "work/program/terim-review-initial.json",
+  "note": "Review records preserve original local evidence paths; shipped copies are mapped here. Initial oldactive captures were superseded; final current captures are mapped. Verdict scopes onlyF1 languagefix."
+}
